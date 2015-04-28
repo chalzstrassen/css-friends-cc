@@ -1,1 +1,24 @@
 /* PHASE 7: Online */
+.profile-picture-container {
+  position: relative;
+  margin: auto;
+  display: block;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.online-ribbon {
+  font-size: 12px;
+  display: block;
+  background: #0c0;
+  position: absolute;
+  font-weight: 700;
+  color: white;
+  transform: rotate(-45deg);
+  top: 11px;
+  left: -43px;
+  padding: 5px 42px;
+  box-shadow: 1px 1px 1px #070;
+  letter-spacing: 3px;
+}

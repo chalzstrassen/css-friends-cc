@@ -12,7 +12,7 @@ span, article, footer, time, small {
   font: inherit;
   color: inherit;
   text-decoration: inherit;
-  min-height: inherit;
+
 }
 
 ul {
@@ -31,12 +31,12 @@ input[type="text"],
 input[type="submit"],
 textarea,
 button {
-  display: none;
+  -webkit-appearance: none;
 }
 
 button,
 input[type="submit"] {
-  display: none;
+  cursor: pointer;
 }
 
 /* Clearfix */
