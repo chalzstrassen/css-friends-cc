@@ -15,9 +15,49 @@
   box-sizing:border-box;
   border: 1px solid black;
   border-radius: 5px;
-  overflow: hidden;
+  position: relative;
 }
 
 .friend-photo-container:nth-child(3n) {
   margin-right: 0;
+}
+
+.friend-photo-container > a:before {
+  content: attr(title);
+  display: none;
+  position: absolute;
+  bottom: 63px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #eee;
+  background: black;
+  color: white;
+  padding: 5px 10px;
+}
+
+
+.friend-photo-container > a:hover:before {
+  display: block;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.friend-photo-container > a:after {
+  content: " ";
+  display: none;
+  position: absolute;
+  background: transparent;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 58px;
+  width: 0px;
+  height: 0px;
+  border-top: 6px solid black;
+  border-bottom: none;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+
+.friend-photo-container > a:hover:after {
+  display: block;
 }
