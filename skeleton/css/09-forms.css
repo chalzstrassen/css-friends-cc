@@ -1,1 +1,48 @@
 /* PHASE 9: Forms */
+figure {
+  margin: 20px;
+  padding: 0;
+  float: left;
+}
+
+form {
+  display: block;
+  width: 500px;
+  height: 400px;
+  background: #eee;
+  float: left;
+  position: relative;
+  margin-top: 10px;
+  border: 1px
+}
+
+.input {
+  position: absolute;
+  display: block;
+  padding: 10px;
+  margin: auto;
+  width: 80%;
+  font-size: 14px;
+}
+
+form > label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+form textarea {
+  position: absolute;
+  top: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 90%;
+  height: 125px;
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+ {
+  border: 1px solid green;
+
+}
