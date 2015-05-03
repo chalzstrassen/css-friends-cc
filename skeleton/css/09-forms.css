@@ -25,24 +25,37 @@ form {
   font-size: 14px;
 }
 
+.textarea {
+  position: absolute;
+  top: 200px;
+  height: 125px;
+  display: block;
+  width: 400px;
+  margin-left: 40px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.textarea textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: 400;
+  height: 100px;
+}
+
 form > label {
   font-size: 16px;
   font-weight: 700;
 }
 
-form textarea {
+.textarea > textarea {
   position: absolute;
   top: 200px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: 90%;
+  width: 400px;
   height: 125px;
   margin-left: 40px;
   font-weight: 400;
   font-size: 16px;
-}
-
- {
-  border: 1px solid green;
-
 }
